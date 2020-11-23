@@ -20,6 +20,8 @@
 <title>Board List</title>
 </head>
 <body>
+	<a href="Logout.jsp">로그아웃</a>
+	
 	<table border="1">
 		<tr>
 			<th>번호</th>
