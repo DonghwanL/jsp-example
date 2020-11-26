@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<주문정보 xmlns="http://www.helloworld.co.kr/asdf/root"
+	xmlns:고객="http://www.helloworld.co.kr/asdf/client"
+	xmlns:상품="http://www.helloworld.co.kr/asdf/product">
+	
+	<주문번호>100</주문번호>
+	<주문수량>10</주문수량>
+	<결재>
+		<방법>현금</방법>
+		<금액>90000</금액>
+	</결재>
+	<고객:정보>
+		<고객:고유번호>123456-7890123</고객:고유번호>
+		<고객:이름>김유신</고객:이름>
+	</고객:정보>
+	<상품:정보>
+		<상품:고유번호>ABC123</상품:고유번호>
+		<상품:이름>노트북</상품:이름>
+	</상품:정보>
+</주문정보>
